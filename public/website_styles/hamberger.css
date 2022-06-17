@@ -1,0 +1,39 @@
+.group{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+    align-items: flex-end;
+}
+.line-1{
+    height: 0.8rem;
+    width: 0.8rem;
+    border-radius: 20%;
+    border: 2px solid var(--color-1);
+}
+.line-2{
+    height: 0.8rem;
+    width: 0.8rem;
+    border-radius: 20%;
+    border: 2px solid var(--color-1);
+}
+.line-3{
+    height: 0.8rem;
+    width: 0.8rem;
+    border-radius: 20%;
+    border: 2px solid var(--color-1);
+}
+.line-4{
+    height: 0.8rem;
+    width: 0.8rem;
+    border-radius: 20%;
+    border: 2px solid var(--color-1);
+}
+
+input.focus,button:focus{
+    box-shadow: unset !important;
+    outline: 0 !important;
+}
+
+.navbar-toggler{
+    border: none;
+}

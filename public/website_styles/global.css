@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
+
+html,body{
+    font-family: 'Arvo', serif;
+}
+
+:root{
+    /* ------------ FONTS ------------- */
+    --font-1: 'Arvo', serif;
+
+    /* ------------ COLORS ------------- */
+    --color-1: #111455;
+    --color-2: rgb(126, 27, 219);
+
+}
+
+.font-1{
+    font-family: var(--font-1);
+}
+.color-1{
+    color: var(--color-1);
+}
